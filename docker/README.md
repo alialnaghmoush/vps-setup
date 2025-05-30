@@ -119,7 +119,7 @@ The script creates an optimized `/etc/docker/daemon.json`:
 ### Installation Progress
 ```
 ═══════════════════════════════════════════════════════════════
-🐳 Docker Installer v1.0.1 🐳
+🐳 Docker Installer v1.0.2 🐳
 ═══════════════════════════════════════════════════════════════
 
 → Checking Ubuntu version compatibility
@@ -266,7 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔄 Version History
 
-### v1.0.1 (Current)
+### v1.0.2 (Current)
 - ✨ Added Ubuntu 24.04 support
 - 🔧 Updated to latest Docker best practices
 - 🎨 Enhanced UI with better progress indicators

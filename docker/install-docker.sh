@@ -27,7 +27,7 @@ readonly GEAR="⚙"
 
 # Script configuration
 readonly SCRIPT_NAME="Docker Installer"
-readonly SCRIPT_VERSION="2025.1"
+readonly SCRIPT_VERSION="1.0.2"
 readonly LOG_FILE="/tmp/docker_install_$(date +%Y%m%d_%H%M%S).log"
 
 # Function to print colored output with icons
