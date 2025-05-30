@@ -53,7 +53,7 @@ A comprehensive, automated Docker installation script for Ubuntu 22.04/24.04 LTS
 
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/alialnaghmoush/docker-installer/main/install-docker.sh
+wget https://raw.githubusercontent.com/alialnaghmoush/vps-setup/main/docker/install-docker.sh
 
 # Make it executable
 chmod +x install-docker.sh
@@ -65,7 +65,7 @@ chmod +x install-docker.sh
 ### One-liner Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alialnaghmoush/docker-installer/main/install-docker.sh | bash
+curl -fsSL https://raw.githubusercontent.com/alialnaghmoush/vps-setup/main/docker/install-docker.sh | bash
 ```
 
 ## 📋 What Gets Installed
@@ -119,7 +119,7 @@ The script creates an optimized `/etc/docker/daemon.json`:
 ### Installation Progress
 ```
 ═══════════════════════════════════════════════════════════════
-🐳 Docker Installer v1.0 🐳
+🐳 Docker Installer v1.0.1 🐳
 ═══════════════════════════════════════════════════════════════
 
 → Checking Ubuntu version compatibility
@@ -222,8 +222,8 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ```bash
 # Clone the repository
-git clone https://github.com/alialnaghmoush/docker-installer.git
-cd docker-installer
+git clone https://github.com/alialnaghmoush/vps-setup.git
+cd vps-setup
 
 # Make changes and test
 chmod +x install-docker.sh
@@ -266,7 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔄 Version History
 
-### v1.0 (Current)
+### v1.0.1 (Current)
 - ✨ Added Ubuntu 24.04 support
 - 🔧 Updated to latest Docker best practices
 - 🎨 Enhanced UI with better progress indicators
